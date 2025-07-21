@@ -14,3 +14,7 @@ ML section/__pycache__/feature_extractor.cpython-310.pyc
 ML section/__pycache__/data_utils.cpython-310.pyc
 ML section/__pycache__/config.cpython-310.pyc
 ML section/logs/run.log
+ML section/dry_run_image.tif
+ML section/dryrun_patch_predictions.csv
+ML section/dryrun_preview.png
+ML section/model_weights/randomforest_dryrun.joblib

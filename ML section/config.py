@@ -1,4 +1,5 @@
-# comfig
+# config
+import os
 # ml_landcover_classifier/
 # Initial scaffold and configuration
 
@@ -60,3 +61,8 @@ GUI_DEFAULT_HEIGHT = 600
 # Default settings used in GUI\ CLI
 DEFAULT_PATCH_SIZE = 64  # editable
 DEFAULT_MODEL_NAME = "randomforest"  # editable: choose model
+
+CLASS_TO_INDEX = {cls: i for i, cls in enumerate(SURFACE_CLASSES)} # class_to_index map (used in training), FIX later ( model_trainer file
+INDEX_TO_CLASS = {i: cls for cls, i in CLASS_TO_INDEX.items()} #(used in training), FIX later ( model_trainer file)
+
+MODEL_PATH = os.path.join(MODEL_DIR, DEFAULT_MODEL_NAME + ".joblib")
