@@ -1,0 +1,16 @@
+Class,Count,Percentage
+others,766739,58.96%
+vegetation,34995,2.69%
+buildings,111108,8.54%
+bare_ground,50181,3.86%
+roads,236505,18.19%
+sidewalk,24632,1.89%
+private_areas,12073,0.93%
+railway,64112,4.93%
+
+Metric,Value
+total_patches,1300345
+overall_accuracy,N/A
+kappa_coefficient,N/A
+f1_macro,N/A
+average_confidence,0.8573

@@ -1,20 +1,2 @@
-/backstage
-/govmap_downloads
-/logs
-/tests
-test GOVMAP API.py
-
-ML section/test for ML section.py
-ML section/example_input.tif.aux.xml
-ML section/example_input.tif
-ML section/__pycache__/shapefile_exporter.cpython-310.pyc
-ML section/__pycache__/predict_landcover.cpython-310.pyc
-ML section/__pycache__/GUI.cpython-310.pyc
-ML section/__pycache__/feature_extractor.cpython-310.pyc
-ML section/__pycache__/data_utils.cpython-310.pyc
-ML section/__pycache__/config.cpython-310.pyc
-ML section/logs/run.log
-ML section/dry_run_image.tif
-ML section/dryrun_patch_predictions.csv
-ML section/dryrun_preview.png
-ML section/model_weights/randomforest_dryrun.joblib
+/*
+!/git export/
